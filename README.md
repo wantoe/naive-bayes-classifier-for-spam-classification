@@ -1,4 +1,4 @@
-# spam-classifier-using-Naive-Bayes-
+# Naive Bayes Classifier for spam classification
 A Naive Bayes classifier to implement spam classification on messages. 
 The classifier classifies if an email is a spam or ham. An email is represented using a binary bag-of-words model. Specifically, a message is represented as a set of  𝑘  keywords, that is,  𝑚𝑒𝑠𝑠𝑎𝑔𝑒=(𝑤1,...,𝑤𝑘) , where  𝑤𝑖=1  if the keyword  𝑤𝑖  appears in the message and  𝑤𝑖=0  otherwise. 
 The classifier is trained using 1000 sample emails. It's accuracy is then determined after testing it with 500 test emails. The accuracy is 0.838 .
